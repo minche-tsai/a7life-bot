@@ -8,6 +8,7 @@
 *.tsbuildinfo
 .cache
 .cdk.staging/
+.env
 .eslintcache
 .nyc_output
 .parcel-cache/
@@ -31,7 +32,6 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 yarn-debug.log*
 yarn-error.log*
 !/.eslintrc.json
-!/.github/dependabot.yml
 !/.github/pull_request_template.md
 !/.github/workflows/build.yml
 !/.github/workflows/rebuild-bot.yml

@@ -23,6 +23,10 @@ const project = new AwsCdkTypeScriptApp({
     'dotenv',
     '@line/bot-sdk',
   ],
+  dependabot: false,
+  gitignore: [
+    '.env',
+  ],
 });
 
 project.synth();
